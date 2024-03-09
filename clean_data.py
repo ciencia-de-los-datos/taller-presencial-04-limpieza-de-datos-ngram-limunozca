@@ -11,6 +11,7 @@ def load_data(input_file):
 
 
 def create_fingerprint(df):
+    #
     """Cree una nueva columna en el DataFrame que contenga el fingerprint de la columna 'text'"""
 
     # 1. Copie la columna 'text' a la columna 'fingerprint'
